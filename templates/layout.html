@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{params["name"]}}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static',filename='fonts/icomoon/style.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/jquery-ui.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/owl.theme.default.min.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap-datepicker.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='fonts/flaticon/font/flaticon.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/aos.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/rangeslider.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+
+  </head>
+  <body>
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+ <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="home"><font color="white">SinMentor</font> </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="mentors"><font color="white">Mentors</font> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#"><font color="white">Investors</font> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#"><font color="white">Events</font> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#"><font color="white">Webinars</font> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#"><font color="white">Contact</font> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#"><font color="white">Community</font> </a>
+          </li>
+          <span class="border-left pl-xl-4"></span>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#"><font color="white">Profile</font> </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      {% block body %} {% endblock %}
+
+  </div>
+
+  <script src="{{url_for('static',filename='js/jquery-3.3.1.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/jquery-migrate-3.0.1.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/jquery-ui.js')}}"></script>
+  <script src="{{url_for('static',filename='js/popper.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/owl.carousel.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/jquery.stellar.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/jquery.countdown.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/jquery.magnific-popup.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/bootstrap-datepicker.min.js')}}"></script>
+  <script src="{{url_for('static',filename='js/aos.js')}}"></script>
+  <script src="{{url_for('static',filename='js/rangeslider.min.js')}}"></script>
+
+  <script src="{{url_for('static',filename='js/main.js')}}"></script>
+
+  </body>
+</html>
