@@ -33,4 +33,8 @@ def register():
 def events():
     return render_template('events.html',params=params)
 
+@app.route('/investors')
+def investors():
+    return render_template('investors.html',params=params)
+
 app.run(debug=True)
